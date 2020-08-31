@@ -313,7 +313,6 @@
             <div class="image"><a href="{{ product.href }}"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a></div>
             <div class="caption">
               <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
-              <p><h5>{{ product.alternative_name }}</h5></p>
               <p>{{ product.description }}</p>
               {% if product.rating %}
               <div class="rating"> {% for j in 1..5 %}
